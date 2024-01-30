@@ -1,20 +1,20 @@
-# CamPhish
-Grab cam shots from target's phone front camera or PC webcam just sending a link.
+#CamPhish
+Ambil jepretan kamera dari kamera depan ponsel target atau webcam PC hanya dengan mengirimkan tautan.
 ![CamPhish](https://techchip.net/wp-content/uploads/2020/04/camphish.jpg)
 
-# What is CamPhish?
-<p>CamPhish is techniques to take cam shots of target's phone front camera or PC webcam. CamPhish Hosts a fake website on in built PHP server and uses ngrok & serveo to generate a link which we will forward to the target, which can be used on over internet. website asks for camera permission and if the target allows it, this tool grab camshots of target's device</p>
+# Apa itu CamPhish?
+<p>CamPhish adalah teknik mengambil bidikan kamera dari kamera depan ponsel atau webcam PC target. CamPhish Menghosting situs web palsu di server PHP bawaan dan menggunakan ngrok & serveo untuk menghasilkan tautan yang akan kami teruskan ke target, yang dapat digunakan melalui internet. situs web meminta izin kamera dan jika target mengizinkannya, alat ini akan mengambil gambar perangkat target</p>
 
-## Features
-<p>In this tool I added two automatic webpage templates for engaged target on webpage to get more picture of cam</p>
+## Fitur
+<p>Dalam alat ini saya menambahkan dua templat laman web otomatis untuk target keterlibatan di laman web guna mendapatkan lebih banyak gambaran kamera</p>
 <ul>
   <li>Festival Wishing</li>
   <li>Live YouTube TV</li>
    <li>Online Meeting [Beta]</li>
 </ul>
-<p>simply enter festival name or youtube's video ID</p>
+<p>cukup masukkan nama festival atau ID video youtube</p>
 
-## This Tool Tested On :
+## Alat Ini Diuji Pada :
 <ul>
   <li>Kali Linux</li>
   <li>Termux</li>
@@ -23,29 +23,29 @@ Grab cam shots from target's phone front camera or PC webcam just sending a link
   <li>Parrot Sec OS</li>
 </ul>
 
-# Installing and requirements
-<p>This tool require PHP for webserver, SSH or serveo link. First run following command on your terminal</p>
+# Instalasi dan persyaratan
+<p>Alat ini memerlukan PHP untuk server web, SSH, atau tautan serveo. Pertama jalankan perintah berikut di terminal Anda</p>
 
 ```
 apt-get -y install php openssh git wget
 ```
 
-## Installing (Kali Linux/Termux):
+## Instalasi (Kali Linux/Termux):
 
 ```
-git clone https://github.com/techchipnet/CamPhish
+git klon https://github.com/techchipnet/CamPhish
 cd CamPhish
 bash camphish.sh
 ```
 
-## Change Log:
+## Ubah Log:
 
-<p><b>Version: 1.5:</b> Add new online meeting template</p>
-<p><b>Version: 1.4:</b> Ngrok authtoken update</p>
-<p><b>Version: 1.3:</b> Fix ngrok direct link</p>
+<p><b>Versi: 1.5:</b> Tambahkan template rapat online baru</p>
+<p><b>Versi: 1.4:</b> Pembaruan autentikasi Ngrok</p>
+<p><b>Versi: 1.3:</b> Perbaiki tautan langsung ngrok</p>
 
-### Video Demo
-[![CamPhish Update demo](https://img.youtube.com/vi/i7tvDJx3-yw/0.jpg)](https://www.youtube.com/watch?v=i7tvDJx3-yw)
-#### For More Video subcribe <a href="http://youtube.com/techchipnet">TechChip YouTube Channel</a>
-<p>CamPhish is created to help in penetration testing and it's not responsible for any misuse or illegal purposes.</p>
-<p>CamPhish is inspired by https://github.com/thelinuxchoice/ Big thanks to @thelinuxchoice</p>
+### Demo Video
+[![Demo Pembaruan CamPhish](https://img.youtube.com/vi/i7tvDJx3-yw/0.jpg)](https://www.youtube.com/watch?v=i7tvDJx3-yw)
+#### Untuk Video Lainnya, berlanggananlah <a href="http://youtube.com/techchipnet">Saluran YouTube TechChip</a>
+<p>CamPhish dibuat untuk membantu pengujian penetrasi dan tidak bertanggung jawab atas penyalahgunaan atau tujuan ilegal apa pun.</p>
+<p>CamPhish terinspirasi oleh https://github.com/thelinuxchoice/ Terima kasih banyak kepada @thelinuxchoice</p>
