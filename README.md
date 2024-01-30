@@ -1,6 +1,6 @@
 #CamPhish
 Ambil jepretan kamera dari kamera depan ponsel target atau webcam PC hanya dengan mengirimkan tautan.
-![CamPhish](https://techchip.net/wp-content/uploads/2020/04/camphish.jpg)
+![CamPhish](https://i.ibb.co/VTPX0GN/Screenshot-78.png)
 
 # Apa itu CamPhish?
 <p>CamPhish adalah teknik mengambil bidikan kamera dari kamera depan ponsel atau webcam PC target. CamPhish Menghosting situs web palsu di server PHP bawaan dan menggunakan ngrok & serveo untuk menghasilkan tautan yang akan kami teruskan ke target, yang dapat digunakan melalui internet. situs web meminta izin kamera dan jika target mengizinkannya, alat ini akan mengambil gambar perangkat target</p>
