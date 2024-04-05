@@ -1,4 +1,4 @@
-#CamPhish
+#obbyart
 Ambil jepretan kamera dari kamera depan ponsel target atau webcam PC hanya dengan mengirimkan tautan.
 ![CamPhish](https://i.ibb.co/VTPX0GN/Screenshot-78.png)
 
